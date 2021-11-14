@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node name="metres_to_feet" pkg="hrwros_week1" type="metres_to_feet_server.py"
+    output="screen"/>
+
+  <node name="week1_assignment1" pkg="hrwros_week1" type="week1_assignment1.py"/>
+
+  <node name="week1_assignment2" pkg="hrwros_week1" type="week1_assignment2.py"
+    output="screen"/>
+
+</launch>
