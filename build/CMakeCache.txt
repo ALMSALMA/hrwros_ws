@@ -376,6 +376,12 @@ hrwros_msgs_DIR:PATH=/home/romo18/ros_projects/hrwros_ws/devel/share/hrwros_msgs
 hrwros_msgs_SOURCE_DIR:STATIC=/home/romo18/ros_projects/hrwros_ws/src/hrwros_msgs
 
 //Value Computed by CMake
+hrwros_support_BINARY_DIR:STATIC=/home/romo18/ros_projects/hrwros_ws/build/hrwros_support
+
+//Value Computed by CMake
+hrwros_support_SOURCE_DIR:STATIC=/home/romo18/ros_projects/hrwros_ws/src/hrwros_support
+
+//Value Computed by CMake
 hrwros_utilities_BINARY_DIR:STATIC=/home/romo18/ros_projects/hrwros_ws/build/hrwros_utilities
 
 //Value Computed by CMake
@@ -386,6 +392,12 @@ hrwros_week1_BINARY_DIR:STATIC=/home/romo18/ros_projects/hrwros_ws/build/hrwros_
 
 //Value Computed by CMake
 hrwros_week1_SOURCE_DIR:STATIC=/home/romo18/ros_projects/hrwros_ws/src/hrwros_week1
+
+//Value Computed by CMake
+hrwros_week2_BINARY_DIR:STATIC=/home/romo18/ros_projects/hrwros_ws/build/hrwros_week2
+
+//Value Computed by CMake
+hrwros_week2_SOURCE_DIR:STATIC=/home/romo18/ros_projects/hrwros_ws/src/hrwros_week2
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
@@ -420,6 +432,9 @@ roscpp_traits_DIR:PATH=/opt/ros/melodic/share/roscpp_traits/cmake
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/melodic/share/rosgraph_msgs/cmake
 
+//The directory containing a CMake configuration file for roslaunch.
+roslaunch_DIR:PATH=/opt/ros/melodic/share/roslaunch/cmake
+
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/melodic/share/rospy/cmake
 
@@ -437,6 +452,18 @@ std_msgs_DIR:PATH=/opt/ros/melodic/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for trajectory_msgs.
 trajectory_msgs_DIR:PATH=/opt/ros/melodic/share/trajectory_msgs/cmake
+
+//Value Computed by CMake
+ur_description_BINARY_DIR:STATIC=/home/romo18/ros_projects/hrwros_ws/build/ur_description
+
+//Value Computed by CMake
+ur_description_SOURCE_DIR:STATIC=/home/romo18/ros_projects/hrwros_ws/src/ur_description
+
+//Value Computed by CMake
+urdf_tutorial_BINARY_DIR:STATIC=/home/romo18/ros_projects/hrwros_ws/build/urdf_tutorial
+
+//Value Computed by CMake
+urdf_tutorial_SOURCE_DIR:STATIC=/home/romo18/ros_projects/hrwros_ws/src/urdf_tutorial
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
@@ -551,7 +578,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

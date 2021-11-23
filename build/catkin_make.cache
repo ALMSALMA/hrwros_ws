@@ -1,2 +1,2 @@
-hrwros_msgs:hrwros_utilities:hrwros_week1
+hrwros_msgs:hrwros_support:hrwros_utilities:hrwros_week1:hrwros_week2:ur_description:urdf_tutorial
 -DCATKIN_DEVEL_PREFIX=/home/romo18/ros_projects/hrwros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/romo18/ros_projects/hrwros_ws/install -G Unix Makefiles

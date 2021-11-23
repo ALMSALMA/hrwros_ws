@@ -92,8 +92,22 @@
 
   <!-- Add your solution to assignment 2 here -->
 
+  <link name="green_sphere">
+    <visual>
+      <origin xyz="0 0 0.5" />
+      <geometry>
+        <cylinder length="1" radius="0.4"/>
+      </geometry>
+      <material name="green_sphere_color">
+        <color rgba="${  0/255} ${155/255} ${ 70/255} 1.0" />
+      </material>
+    </visual>
+  </link>
 
-
-
+  <joint name="green_sphere_joint" type="fixed">
+    <origin xyz="5.8 -5.5 0.0" />
+    <parent link="world" />
+    <child link="green_sphere" />
+  </joint>
 
 </robot>

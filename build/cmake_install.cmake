@@ -132,8 +132,12 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/romo18/ros_projects/hrwros_ws/build/gtest/cmake_install.cmake")
   include("/home/romo18/ros_projects/hrwros_ws/build/hrwros_utilities/cmake_install.cmake")
+  include("/home/romo18/ros_projects/hrwros_ws/build/hrwros_week2/cmake_install.cmake")
+  include("/home/romo18/ros_projects/hrwros_ws/build/ur_description/cmake_install.cmake")
+  include("/home/romo18/ros_projects/hrwros_ws/build/hrwros_support/cmake_install.cmake")
   include("/home/romo18/ros_projects/hrwros_ws/build/hrwros_msgs/cmake_install.cmake")
   include("/home/romo18/ros_projects/hrwros_ws/build/hrwros_week1/cmake_install.cmake")
+  include("/home/romo18/ros_projects/hrwros_ws/build/urdf_tutorial/cmake_install.cmake")
 
 endif()
 
